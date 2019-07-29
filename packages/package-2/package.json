@@ -1,0 +1,17 @@
+{
+    "name": "@multilex/package-2",
+    "version": "1.0.0",
+    "description": "Sample project",
+    "author": "leszq",
+    "license": "ISC",
+    "peerDependencies": {
+        "@angular/common": "^8.0.0",
+        "@angular/core": "^8.0.0",
+        "rxjs": "^6.5.0"
+    },
+    "devDependencies": {
+        "@angular/common": "^8.0.0",
+        "@angular/core": "^8.0.0",
+        "rxjs": "^6.5.0"
+    }
+}

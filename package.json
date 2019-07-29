@@ -1,0 +1,29 @@
+{
+  "name": "multilex",
+  "version": "1.0.0",
+  "description": "Multi package project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leszq/multilex.git"
+  },
+  "author": "leszq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leszq/multilex/issues"
+  },
+  "homepage": "https://github.com/leszq/multilex#readme",
+  "scripts": {
+    "lerna": "lerna",
+    "lerna:bs": "lerna bootstrap",
+    "build-tools": "tsc -p ./tools/tsconfig.json",
+    "lerna:bp": "lerna exec node ../../tools/tasks/build"
+  },
+  "devDependencies": {
+    "@angular/compiler": "8.1.3",
+    "@angular/compiler-cli": "8.1.3",
+    "lerna": "3.16.4",
+    "ng-packagr": "5.4.3",
+    "tsickle": "^0.36.0",
+    "typescript": "3.4.5"
+  }
+}

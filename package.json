@@ -16,7 +16,9 @@
     "lerna": "lerna",
     "lerna:bs": "lerna bootstrap",
     "build-tools": "tsc -p ./tools/tsconfig.json",
-    "lerna:bp": "lerna exec node ../../tools/tasks/build"
+    "lerna:bp": "lerna exec node ../../tools/tasks/build --ignore=@multilex/multilex",
+    "build": "lerna run build --scope=@multilex/multilex",
+    "start": "lerna run start --scope=@multilex/multilex"
   },
   "devDependencies": {
     "@angular/compiler": "8.1.3",

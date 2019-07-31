@@ -4,6 +4,10 @@
     "description": "Sample project",
     "author": "leszq",
     "license": "ISC",
+    "files": [
+        "dist"
+    ],
+    "main": "dist/bundles/multilex-package-1.umd.js",
     "peerDependencies": {
         "@angular/common": "^8.0.0",
         "@angular/core": "^8.0.0",

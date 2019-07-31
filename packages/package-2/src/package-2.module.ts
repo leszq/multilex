@@ -10,6 +10,6 @@ import { Package2Component } from "./package-2/package-2.component";
 		Package2Component
 	]
 })
-export class Package1Module {
+export class Package2Module {
 
 }

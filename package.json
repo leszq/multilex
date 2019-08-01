@@ -14,15 +14,17 @@
   "homepage": "https://github.com/leszq/multilex#readme",
   "scripts": {
     "lerna": "lerna",
-    "lerna:bs": "lerna bootstrap",
+    "bootstrap": "lerna bootstrap",
     "build-tools": "tsc -p ./tools/tsconfig.json",
-    "lerna:bp": "lerna exec node ../../tools/tasks/build --ignore=@multilex/multilex",
-    "build": "lerna run build --scope=@multilex/multilex",
-    "start": "lerna run start --scope=@multilex/multilex"
+    "build-packages": "lerna exec node ../../tools/tasks/build --ignore=@multilex/multilex",
+    "watch-packages": "cross-env WATCH_MODE=true lerna exec --parallel node ../../tools/tasks/build --ignore=@multilex/multilex",
+    "build": "lerna run build --scope=@multilex/multilex --stream",
+    "start": "lerna run start --scope=@multilex/multilex --stream "
   },
   "devDependencies": {
     "@angular/compiler": "8.1.3",
     "@angular/compiler-cli": "8.1.3",
+    "cross-env": "^5.2.0",
     "lerna": "3.16.4",
     "ng-packagr": "5.4.3",
     "tsickle": "^0.36.0",

@@ -19,7 +19,7 @@
     "@angular/platform-browser": "~8.1.3",
     "@angular/platform-browser-dynamic": "~8.1.3",
     "@angular/router": "~8.1.3",
-    "@multilex/package-1": "1.0.0",
+    "@multilex/package-1": "file:../../packages/package-1/dist",
     "@multilex/package-2": "1.0.0",
     "@multilex/theme": "1.0.0",
     "rxjs": "~6.4.0",

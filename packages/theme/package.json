@@ -10,12 +10,12 @@
     "main": "dist/bundles/multilex-theme.umd.js",
     "peerDependencies": {
         "@angular/common": "^8.0.0",
-        "@angular/core": "^8.0.0",
+        "@angular/core": "^10.2.5",
         "rxjs": "^6.5.0"
     },
     "devDependencies": {
         "@angular/common": "^8.0.0",
-        "@angular/core": "^8.0.0",
+        "@angular/core": "^10.2.5",
         "rxjs": "^6.5.0"
     }
 }

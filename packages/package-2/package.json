@@ -10,7 +10,7 @@
     "main": "dist/bundles/multilex-package-2.umd.js",
     "peerDependencies": {
         "@angular/common": "^8.0.0",
-        "@angular/core": "^8.0.0",
+        "@angular/core": "^10.2.5",
         "@angular/router": "^8.0.0",
         "@angular/platform-browser": "~8.0.0",
         "@angular/platform-browser-dynamic": "~8.0.0",
@@ -18,7 +18,7 @@
     },
     "devDependencies": {
         "@angular/common": "^8.0.0",
-        "@angular/core": "^8.0.0",
+        "@angular/core": "^10.2.5",
         "@angular/router": "^8.0.0",
         "@angular/platform-browser": "~8.0.0",
         "@angular/platform-browser-dynamic": "~8.0.0",
